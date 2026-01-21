@@ -1,0 +1,66 @@
+body{
+  font-family: Homoarakhn,sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  background:#a2d2ff;
+  align-items: center;
+}
+
+.wishes{
+  color: #9a1316;
+  text-shadow: 2px 2px 2px black;
+  font-size: 50px;
+  background-color: #ffe4e1;
+  border-radius: 20px;
+  padding: 30px 20px 30px 20px;
+}
+
+#bday-man{
+  padding:5px ;
+  margin: 0px ;
+  border-radius:60%;
+  width: 300px;
+  border: 5px solid #9a1316;
+}
+
+.all{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-section{
+  margin-top: 50px;
+}
+
+.gift-img{
+  border: 10px solid #9a1316;
+  border-radius: 30px;
+  background-image: url("images/wrap.jpg");
+  height: 400px;
+  width:400px;
+  background-size:cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+/* .gift-img:hover{
+  background-image: url("images/no.gif");
+  background-size: cover;
+  background-position:center;
+}
+ */
+
+ #img-1:hover{
+  background-image: url("images/no.gif");
+ }
+
+ #img-2:hover{
+  background-image: url("images/flash.gif");
+ }
+
+ #img-3:hover{
+  background-image: url("images/crying.gif");
+ }
